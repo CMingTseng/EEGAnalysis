@@ -1,6 +1,6 @@
 # EEGAnalysis
 ## Overview
-This application visualizes the waveform with a line graph.
+This application visualizes the waveform with a line graph.  
 The waveform is only electroencephalogram(EEG).
 ## Screen transition diagram
 ## Screen design drawing
@@ -14,7 +14,8 @@ undefined
 undefined
 ## Deploy
 - CircleCI
-- Pivotal Web Services
+- Pivotal Web Services  
+https://eeganalysis-responsible-reedbuck.cfapps.io/
 ## Library
-This application uses Material Design Lite.
+This application uses Material Design Lite.  
 https://github.com/google/material-design-lite
