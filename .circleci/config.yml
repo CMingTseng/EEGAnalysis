@@ -48,7 +48,7 @@ jobs:
       - run: curl -v -L -o cf-cli_amd64.deb 'https://cli.run.pivotal.io/stable?release=debian64&source=github'
       - run: sudo dpkg -i cf-cli_amd64.deb
       - run: cf api https://api.run.pivotal.io
-      - run: cf auth $PCF_ID $PCF_PASSWORD
+      - run: cf auth $PCF_MAILADDRESS $PCF_PASSWORD
       - run: cf target -o $PCF_ORG -s $PCF_SPACE
       - run: cp build/libs/*.jar ./app.jar
       - run: cf push -f manifest.yml
