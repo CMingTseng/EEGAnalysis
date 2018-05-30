@@ -15,3 +15,6 @@ undefined
 ## Deploy
 - CircleCI
 - Pivotal Web Services
+## Library
+This application uses Material Design Lite.
+https://github.com/google/material-design-lite
