@@ -13,4 +13,5 @@ undefined
 ## DB Design
 undefined
 ## Deploy
-undefined
+- CircleCI
+- Pivotal Web Services
