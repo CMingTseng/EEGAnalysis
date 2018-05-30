@@ -1,0 +1,5 @@
+---
+applications:
+- name: EEGAnalysis
+  path: app.jar
+  random-route: true
